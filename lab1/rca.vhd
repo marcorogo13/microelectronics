@@ -1,6 +1,8 @@
 library ieee; 
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all;
+use IEEE.numeric_std.all; -- to sum unsigned numbers
+use WORK.constants.all; -- libreria WORK user-defined
 
 entity RCA is 
 	generic (DRCAS : 	Time := 0 ns;
@@ -45,9 +47,13 @@ end STRUCTURAL;
 architecture BEHAVIORAL of RCA is
 
 begin
-  
-  S <= (A + B) after DRCAS;
-  
+SUM_proc : process (A,B)
+  variable temp : std_logic_vector (NumBit downto 0);
+begin 
+  temp := std_logic_vector( unsigned(A) + unsigned(B));
+  S <= temp(NumBit-1 downto 0) after DRCAS;
+  Co <= temp(NumBit);
+end process SUM_proc;  
 end BEHAVIORAL;
 
 configuration CFG_RCA_STRUCTURAL of RCA is

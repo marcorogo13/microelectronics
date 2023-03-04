@@ -1,6 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-
+use WORK.constants.all; -- libreria WORK user-defined
 
 entity TBFD is
 end TBFD;
@@ -13,20 +13,20 @@ architecture TEST of TBFD is
 	signal	QSYNCH:		std_logic;
 	signal	QASYNCH:	std_logic;
 	
-	component FD
-	
+	component FD_GENERIC
+	generic (NBIT : integer := numBit);
 	Port (	CK:	In	std_logic;
 		RESET:	In	std_logic;
-		D:	In	std_logic;
-		Q:	Out	std_logic);
+		D:	In	std_logic_vector(NBIT-1 downto 0);
+		Q:	Out	std_logic_vector(NBIT-1 downto 0));
 	end component;
 
 begin 
 		
-	UFD1 : FD
+	UFD1 : FD_GENERIC
 	Port Map ( CK, RESET, D, QSYNCH); -- sinc
 
-	UFD2 : FD
+	UFD2 : FD_GENERIC
 	Port Map ( CK, RESET, D, QASYNCH); -- asinc
 	
 

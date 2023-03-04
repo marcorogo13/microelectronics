@@ -17,7 +17,7 @@ architecture TEST of TBMUX21_GENERIC is
 	
 	component MUX21_GENERIC
 	Generic (NBIT: integer:= numBit;
-		 DELAY_MUX: Time:= tp_mux);
+		 	DELAY_MUX: Time:= tp_mux);
 	Port (	A:	In	std_logic_vector(NBIT-1 downto 0) ;
 		B:	In	std_logic_vector(NBIT-1 downto 0);
 		SEL:	In	std_logic;
