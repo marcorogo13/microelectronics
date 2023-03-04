@@ -7,6 +7,7 @@ end TBFD;
 
 architecture TEST of TBFD is
 
+	constant NBIT: integer := 16; 
 	signal	CK:		std_logic :='0';
 	signal	RESET:		std_logic :='0';
 	signal	D:		std_logic :='0';
@@ -14,7 +15,7 @@ architecture TEST of TBFD is
 	signal	QASYNCH:	std_logic;
 	
 	component FD_GENERIC
-	generic (NBIT : integer := numBit);
+	generic (NBIT : integer := NumBIT);
 	Port (	CK:	In	std_logic;
 		RESET:	In	std_logic;
 		D:	In	std_logic_vector(NBIT-1 downto 0);
@@ -24,9 +25,11 @@ architecture TEST of TBFD is
 begin 
 		
 	UFD1 : FD_GENERIC
+	Generic Map (NBIT)
 	Port Map ( CK, RESET, D, QSYNCH); -- sinc
 
 	UFD2 : FD_GENERIC
+	Generic Map (NBIT)
 	Port Map ( CK, RESET, D, QASYNCH); -- asinc
 	
 

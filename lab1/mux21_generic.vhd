@@ -23,7 +23,7 @@ begin
 end BEHAVIORAL;
 
 
-architecture STRUCTURAL of MUX21 is
+architecture STRUCTURAL of MUX21_GENERIC is
 
 	signal Y1: std_logic_vector(NBIT-1 downto 0);
 	signal Y2: std_logic_vector(NBIT-1 downto 0);
