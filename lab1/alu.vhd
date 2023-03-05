@@ -31,11 +31,11 @@ P_ALU: process (FUNC, DATA1, DATA2)
       when BITAND 	=> OUTALU <= DATA1 and DATA2; -- bitwise operations
       when BITOR 	=> OUTALU <= DATA1 or DATA2;
       when BITXOR 	=> OUTALU <= DATA1 xor DATA2 ;
-      when FUNCLSL 	=> OUTALU <= shift_left(DATA1, to_integer(unsigned(DATA2))); -- logical shift left, HELP: use the concatenation operator &  
-      when FUNCLSR 	=> OUTALU <= shift_right(DATA1, to_integer(unsigned(DATA2))); -- logical shift right
-      when FUNCRL 	=> OUTALU <= rotate_left(DATA1, to_integer(unsigned(DATA2))); -- rotate left
-      when FUNCRR 	=> OUTALU <= rotate_right(DATA1, to_integer(unsigned(DATA2))); -- toate right
-      when others => null;
+--      when FUNCLSL 	=> OUTALU <= std_logic_vector(shift_left(unsigned(DATA1), to_integer(unsigned(DATA2)))); -- logical shift left, HELP: use the concatenation operator &  
+--      when FUNCLSR 	=> OUTALU <= shift_right(DATA1, to_integer(unsigned(DATA2))); -- logical shift right
+--      when FUNCRL 	=> OUTALU <= rotate_left(DATA1, to_integer(unsigned(DATA2))); -- rotate left
+--      when FUNCRR 	=> OUTALU <= rotate_right(DATA1, to_integer(unsigned(DATA2))); -- toate right
+--      when others => null;
     end case; 
   end process P_ALU;
 
