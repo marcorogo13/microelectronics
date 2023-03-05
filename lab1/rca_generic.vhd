@@ -49,7 +49,7 @@ architecture BEHAVIORAL of RCA_GENERIC is
   signal CTMP : std_logic_vector(NBIT downto 0); -- signal to store the sum plus the carry out that will be divided in S and Co
 begin
 
-  CTMP <= 0 & std_logic_vector( unsigned(A) + unsigned(B) + resize(unsigned (Ci), NBIT-1)); --actual sum, need to extend the vector
+  CTMP <= 0 & std_logic_vector( unsigned(A) + unsigned(B) + resize(unsigned (Ci), NBIT)); --actual sum, need to extend the vector
   S <= CTMP(NumBit-1 downto 0) after DRCAS;
   Co <= CTMP(NumBit);
 

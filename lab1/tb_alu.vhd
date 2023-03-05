@@ -4,7 +4,7 @@ use IEEE.std_logic_1164.all;
 USE IEEE.std_logic_unsigned.all;
 use IEEE.std_logic_arith.all;
 use WORK.constants.all;
-use WORK.alu_type.all;
+use WORK.alu_types.all;
 
 entity TBALU is
 end TBALU;
