@@ -37,7 +37,7 @@ begin
 --	after 9 ns,('1',others => '0') after 12 ns,('0','0','0',others => '1') after 15 ns;
 
         OP1 <= "0000000000110101";
-        OP2 <= "0000000000010110";
+        OP2 <= "0000000000000110";
 	FUNC_CODE <= 	ADD after 2 ns, 
 		     	SUB after 4 ns,
 	             	MULT after 6 ns, 

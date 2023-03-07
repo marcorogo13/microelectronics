@@ -14,11 +14,7 @@ entity ALU is
 end ALU;
 
 architecture BEHAVIOR of ALU is
-signal HALFD1, HALFD2: std_logic_vector ((N/2) - 1 downto 0);
 begin
-
-HALFD1 <= DATA1((N/2) - 1 downto 0);
-HALFD2 <= DATA2((N/2) - 1 downto 0);
 
 P_ALU: process (FUNC, DATA1, DATA2)
   -- complete all the requested functions
@@ -31,11 +27,13 @@ P_ALU: process (FUNC, DATA1, DATA2)
       when BITAND 	=> OUTALU <= DATA1 and DATA2; -- bitwise operations
       when BITOR 	=> OUTALU <= DATA1 or DATA2;
       when BITXOR 	=> OUTALU <= DATA1 xor DATA2 ;
---      when FUNCLSL 	=> OUTALU <= std_logic_vector(shift_left(unsigned(DATA1), to_integer(unsigned(DATA2)))); -- logical shift left, HELP: use the concatenation operator &  
+      when FUNCLSL 	=> OUTALU  <= std_logic_vector(shift_left(unsigned(DATA1), to_integer(unsigned(DATA2)))); -- logical shift left, HELP: use the concatenation operator &  
+      --DATA1(N-1-to_integer(unsigned(DATA2)) downto 0) & (to_integer(unsigned(DATA2)) - 1 downto 0 => '0'); 
+      --std_logic_vector(shift_left(unsigned(DATA1), to_integer(unsigned(DATA2)))); -- logical shift left, HELP: use the concatenation operator &  
 --      when FUNCLSR 	=> OUTALU <= shift_right(DATA1, to_integer(unsigned(DATA2))); -- logical shift right
 --      when FUNCRL 	=> OUTALU <= rotate_left(DATA1, to_integer(unsigned(DATA2))); -- rotate left
 --      when FUNCRR 	=> OUTALU <= rotate_right(DATA1, to_integer(unsigned(DATA2))); -- toate right
---      when others => null;
+      when others => null;
     end case; 
   end process P_ALU;
 
