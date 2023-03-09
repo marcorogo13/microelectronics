@@ -1,0 +1,374 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms23.2/cap1/vhdlsim/mux_generic
+T_opt
+!s110 1678352331
+VRgg_NY7[Fh=l7fV@THIn53
+04 15 4 work tbmux21_generic test 1
+=1-000ae431a4f1-64099fcb-7e826-4afd
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Ccfg_iv_behavioral
+eIV
+Z1 aBEHAVIORAL
+DAx4 work 2 iv 10 behavioral 22 L@eAFiK3j2Y6e?kN@i_ID3
+Z2 DPx4 work 9 constants 0 22 W:6`mY6l4=RSIV6jn<EYP0
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z5 DEx4 work 2 iv 0 22 l[@`VNb8fZY<X=:9PUmDI1
+!i122 13
+Z6 w1678351786
+R0
+Z7 8/home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd
+Z8 F/home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd
+l0
+L17 1
+V8YOlXWFY?gPM>OiAoJmjR0
+!s100 13QZn[E;z;nX3V9T4eTFA3
+Z9 OL;C;2020.4;71
+32
+Z10 !s110 1678351789
+!i10b 0
+Z11 !s108 1678351789.000000
+Z12 !s90 -reportprogress|300|-work|work|/home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd|
+Z13 !s107 /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Ccfg_mux21_generic_behavioral
+Z16 eMUX21_GENERIC
+R1
+DAx4 work 13 mux21_generic 10 behavioral 22 <>7Wn^6@2QF^LNK?C?cmP2
+R2
+R3
+R4
+Z17 DEx4 work 13 mux21_generic 0 22 Bmdo_9h5zA5:lOQB5[K^`3
+!i122 21
+Z18 w1678352061
+R0
+Z19 8/home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+Z20 F/home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+l0
+L70 1
+VzQ[8D:0K5>@zPXn@^ZMYI1
+!s100 V1DG=la8<E1W0P=]AS94A2
+R9
+32
+Z21 !s110 1678352066
+!i10b 0
+Z22 !s108 1678352066.000000
+Z23 !s90 -reportprogress|300|-work|work|/home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd|
+Z24 !s107 /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd|
+!i113 0
+R14
+R15
+Ccfg_mux21_generic_structural
+R16
+aSTRUCTURAL
+Z25 DEx4 work 3 nd2 0 22 gme_WFkBF3cPN=:n6f?m>1
+R5
+DCx4 work 13 cfg_nd2_arch1 0 22 ggme8C8XUBYc?[99[zdMS2
+DCx4 work 17 cfg_iv_behavioral 0 22 8YOlXWFY?gPM>OiAoJmjR0
+DAx4 work 13 mux21_generic 10 structural 22 GD33MMD;2]H5U`L9[^V>K3
+R2
+R3
+R4
+R17
+!i122 21
+R18
+R0
+R19
+R20
+l0
+L76 1
+V@An>cn@N0XhVhO]L87?kG3
+!s100 LzGbIzD_l2A2a@I]@jQn33
+R9
+32
+R21
+!i10b 0
+R22
+R23
+R24
+!i113 0
+R14
+R15
+Ccfg_nd2_arch1
+eND2
+aARCH1
+DAx4 work 3 nd2 5 arch1 22 =RSV`cAbJ8kl?b[0TlLhe3
+R2
+R3
+R4
+R25
+!i122 14
+Z26 w1678351800
+R0
+Z27 8/home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd
+Z28 F/home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd
+l0
+L21 1
+Vggme8C8XUBYc?[99[zdMS2
+!s100 WRlZZSJW9k>459ldmm_O`1
+R9
+32
+Z29 !s110 1678351803
+!i10b 0
+Z30 !s108 1678351803.000000
+Z31 !s90 -reportprogress|300|-work|work|/home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd|
+Z32 !s107 /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd|
+!i113 0
+R14
+R15
+Pconstants
+!i122 12
+w1677920693
+R0
+8/home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd
+F/home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd
+l0
+L1 1
+VW:6`mY6l4=RSIV6jn<EYP0
+!s100 U5h6FaCeib26DYln1S3372
+R9
+32
+!s110 1678351754
+!i10b 1
+!s108 1678351753.000000
+!s90 -reportprogress|300|-work|work|/home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd|
+!s107 /home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd|
+!i113 0
+R14
+R15
+Eiv
+R6
+R2
+R3
+R4
+!i122 13
+R0
+R7
+R8
+l0
+L5 1
+Vl[@`VNb8fZY<X=:9PUmDI1
+!s100 5nLJP6L7hzlU?Z;B98cCe2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+!i122 13
+l13
+L11 5
+VL@eAFiK3j2Y6e?kN@i_ID3
+!s100 LhQ_V@OYnZZX;ie[`<lkP1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Emux21_generic
+R18
+R2
+R3
+R4
+!i122 21
+R0
+R19
+R20
+l0
+L8 1
+VBmdo_9h5zA5:lOQB5[K^`3
+!s100 Vag<jhDX^_kQaUz@6UU6j0
+R9
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R14
+R15
+Astructural
+R2
+R3
+R4
+R17
+!i122 21
+l46
+L29 39
+VGD33MMD;2]H5U`L9[^V>K3
+!s100 g0f369Z=ehl?8U]6d@R]J3
+R9
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R17
+!i122 21
+l20
+L18 9
+V<>7Wn^6@2QF^LNK?C?cmP2
+!s100 o7JOjEKYBz]oooZEGFIg42
+R9
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R14
+R15
+Cmux21gentest
+eTBMUX21_GENERIC
+aTEST
+R17
+DCx4 work 28 cfg_mux21_generic_structural 0 22 @An>cn@N0XhVhO]L87?kG3
+DCx4 work 28 cfg_mux21_generic_behavioral 0 22 zQ[8D:0K5>@zPXn@^ZMYI1
+DAx4 work 15 tbmux21_generic 4 test 22 i9@9L8_MKMNPl9@Oi<R0g0
+R2
+R3
+R4
+Z33 DEx4 work 15 tbmux21_generic 0 22 nJgXk`4>bY<OWeT`<1IXc0
+!i122 24
+Z34 w1678352280
+R0
+Z35 8/home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd
+Z36 F/home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd
+l0
+L46 1
+VeiKj913j<5GFe?^2iS`XR0
+!s100 FP4ZKZRz=6SjPekcP5O^40
+R9
+32
+Z37 !s110 1678352284
+!i10b 0
+Z38 !s108 1678352284.000000
+Z39 !s90 -reportprogress|300|-work|work|/home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd|
+Z40 !s107 /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd|
+!i113 0
+R14
+R15
+End2
+R26
+R2
+R3
+R4
+!i122 14
+R0
+R27
+R28
+l0
+L5 1
+Vgme_WFkBF3cPN=:n6f?m>1
+!s100 f:WOMIVUfY1LWAn0bnMWU3
+R9
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R14
+R15
+Aarch1
+R2
+R3
+R4
+R25
+!i122 14
+l15
+L13 5
+V=RSV`cAbJ8kl?b[0TlLhe3
+!s100 cBk?9z23I8BXFfXoW:Ukg1
+R9
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R14
+R15
+Etbmux21_generic
+R34
+R2
+R3
+R4
+!i122 24
+R0
+R35
+R36
+l0
+L6 1
+VnJgXk`4>bY<OWeT`<1IXc0
+!s100 Cemk`9C=@;kab5Mk6_63`0
+R9
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R14
+R15
+Atest
+R2
+R3
+R4
+R33
+!i122 24
+l27
+L9 36
+Vi9@9L8_MKMNPl9@Oi<R0g0
+!s100 AmcN5jhZY]MU[I1:4L6bg1
+R9
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R14
+R15

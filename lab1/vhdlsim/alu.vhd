@@ -25,7 +25,7 @@ P_ALU: process (FUNC, DATA1, DATA2)
     case FUNC is
       when ADD 	=> OUTALU <= std_logic_vector(unsigned(DATA1) + unsigned(DATA2)); 
       when SUB 	=> OUTALU <= std_logic_vector(unsigned(DATA1) - unsigned(DATA2));
-      when MULT 	=> OUTALU <= std_logic_vector(unsigned(DATA1(N/2 -1 downto 0)) * unsigned(DATA1(N/2 -1 downto 0))); 
+      when MULT 	=> OUTALU <= std_logic_vector(unsigned(DATA1(N/2 -1 downto 0)) * unsigned(DATA2(N/2 -1 downto 0))); 
       when BITAND 	=> OUTALU <= DATA1 and DATA2; -- bitwise operations
       when BITOR 	=> OUTALU <= DATA1 or DATA2;
       when BITXOR 	=> OUTALU <= DATA1 xor DATA2 ;

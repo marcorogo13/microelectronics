@@ -1,0 +1,516 @@
+# //  Questa Sim-64
+# //  Version 2020.4 linux_x86_64 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:21:59 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 09:21:59 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:22:01 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity IV
+# -- Compiling architecture BEHAVIORAL of IV
+# -- Compiling configuration CFG_IV_BEHAVIORAL
+# -- Loading entity IV
+# -- Loading architecture BEHAVIORAL of IV
+# End time: 09:22:01 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:22:03 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# -- Compiling architecture ARCH1 of ND2
+# -- Compiling configuration CFG_ND2_ARCH1
+# -- Loading entity ND2
+# -- Loading architecture ARCH1 of ND2
+# End time: 09:22:03 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:22:07 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(21): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(21): (vcom-1581) No feasible entries for infix operator 'and'.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(21): (vcom-1590) Bad expression in left operand of infix expression 'or'.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(21): (vcom-1590) Bad expression in right operand of infix expression 'or'.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(21): Type error resolving infix expression "or" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(23): VHDL Compiler exiting
+# End time: 09:22:07 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:26:38 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(23): near "B": (vcom-1576) expecting ';' or ','.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(25): VHDL Compiler exiting
+# End time: 09:26:38 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:01 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(51): Signal [mode IN port] "S" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(51): Signal "SB" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(55): Signal [mode IN port] "S" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(59): Signal "SB" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(66): VHDL Compiler exiting
+# End time: 09:27:01 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:12 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(51): Signal [mode IN port] "S" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(51): Signal "SB" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(55): Signal [mode IN port] "S" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(59): Signal "SB" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(66): VHDL Compiler exiting
+# End time: 09:27:12 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:18 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(23): near "B": (vcom-1576) expecting ';' or ','.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(25): VHDL Compiler exiting
+# End time: 09:27:18 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:35 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(23): near "B": (vcom-1576) expecting ';' or ','.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(25): VHDL Compiler exiting
+# End time: 09:27:35 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:28:12 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(21): (vcom-1339) Selected signal assignment choices cover only 2 out of 9 cases.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(25): VHDL Compiler exiting
+# End time: 09:28:12 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:28:27 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(21): (vcom-1339) Selected signal assignment choices cover only 2 out of 9 cases.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(25): VHDL Compiler exiting
+# End time: 09:28:27 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:28:52 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(52): Signal [mode IN port] "S" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(52): Signal "SB" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(56): Signal [mode IN port] "S" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(60): Signal "SB" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(67): VHDL Compiler exiting
+# End time: 09:28:52 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:49:13 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 09:49:14 on Mar 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:49:16 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity IV
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd(8): near "end": (vcom-1576) expecting IDENTIFIER.
+# End time: 09:49:16 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:49:49 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/iv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity IV
+# -- Compiling architecture BEHAVIORAL of IV
+# -- Compiling configuration CFG_IV_BEHAVIORAL
+# -- Loading entity IV
+# -- Loading architecture BEHAVIORAL of IV
+# End time: 09:49:49 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:49:52 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd(10): near "end": (vcom-1576) expecting IDENTIFIER.
+# End time: 09:49:52 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:50:03 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# -- Compiling architecture ARCH1 of ND2
+# -- Compiling configuration CFG_ND2_ARCH1
+# -- Loading entity ND2
+# -- Loading architecture ARCH1 of ND2
+# End time: 09:50:03 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:50:10 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(39): near "end": (vcom-1576) expecting IDENTIFIER.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(44): near "end": (vcom-1576) expecting IDENTIFIER.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(50): (vcom-1027) Number of positional association elements (2) exceeds number of formals (0).
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(54): (vcom-1589) Cannot use name 'A' until the interface list is complete.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(54): (vcom-1027) Number of positional association elements (3) exceeds number of formals (0).
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(59): (vcom-1027) Number of positional association elements (3) exceeds number of formals (0).
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(64): (vcom-1589) Cannot use name 'Y' until the interface list is complete.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(64): (vcom-1027) Number of positional association elements (3) exceeds number of formals (0).
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(67): VHDL Compiler exiting
+# End time: 09:50:10 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:50:49 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GENERIC_BEHAVIORAL
+# ** Error: (vcom-11) Could not find work.mux21.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(70): VHDL Compiler exiting
+# End time: 09:50:49 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:51:48 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: (vcom-11) Could not find work.cfg_mux21_gen_behavioral.
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(49): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_BEHAVIORAL".
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(49): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(49): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.cfg_mux21_gen_structural.
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(53): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_STRUCTURAL".
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(53): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(53): Unknown expanded name.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(57): VHDL Compiler exiting
+# End time: 09:51:48 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:52:05 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GENERIC_BEHAVIORAL
+# ** Error: (vcom-11) Could not find work.mux21.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(70): VHDL Compiler exiting
+# End time: 09:52:05 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:52:55 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GENERIC_BEHAVIORAL
+# ** Error: (vcom-11) Could not find work.mux21.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(70): VHDL Compiler exiting
+# End time: 09:52:55 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:53:37 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GENERIC_BEHAVIORAL
+# ** Error: (vcom-11) Could not find work.mux21.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(70): VHDL Compiler exiting
+# End time: 09:53:37 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:54:26 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GENERIC_BEHAVIORAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GENERIC_STRUCTURAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch1
+# ** Warning: /home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic.vhd(81): (vcom-1263) Component configuration "all : ND2" applies to no component instantiation statements.
+# End time: 09:54:26 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:55:31 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: (vcom-11) Could not find work.cfg_mux21_gen_behavioral.
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(49): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_BEHAVIORAL".
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(49): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(49): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.cfg_mux21_gen_structural.
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(53): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_STRUCTURAL".
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(53): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(53): Unknown expanded name.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(57): VHDL Compiler exiting
+# End time: 09:55:31 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:57:12 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_generic_behavioral
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(50): (vcom-1131) Port "SEL" is declared on component "MUX21_GENERIC" but not on entity "MUX21_GENERIC".
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(50): (vcom-1130) Port "S" of entity "MUX21_GENERIC" is not in the component being instantiated.
+# -- Loading configuration cfg_mux21_generic_structural
+# ** Error: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(54): (vcom-1131) Port "SEL" is declared on component "MUX21_GENERIC" but not on entity "MUX21_GENERIC".
+# ** Error (suppressible): /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(54): (vcom-1130) Port "S" of entity "MUX21_GENERIC" is not in the component being instantiated.
+# ** Note: /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd(57): VHDL Compiler exiting
+# End time: 09:57:12 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:58:04 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/cap1/vhdlsim/mux_generic/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_generic_behavioral
+# -- Loading configuration cfg_mux21_generic_structural
+# End time: 09:58:04 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tbmux21_generic -t 10ps -voptargs=+acc
+# vsim work.tbmux21_generic -t 10ps -voptargs="+acc" 
+# Start time: 09:58:51 on Mar 09,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.tbmux21_generic(test)#1
+# Loading work.mux21_generic(structural)#1
+# Loading work.iv(behavioral)#1
+# Loading work.nd2(arch1)#1
+# Loading work.mux21_generic(structural)#2
+add wave *
+run 100 ns
+# Causality operation skipped due to absence of debug database file
+run 15 ns
+run 5 ns
+add wave *
+run 10 ns
+run 6 ns
+run 2 ns
+run 2000 ps
+evince mux21_generic_wave.ps 
+# 
+# ** (evince:18502): WARNING **: 10:07:47.926: Error when getting information for file “/home/ms23.2/cap1/vhdlsim/mux_generic/mux21_generic_wave.ps”: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.012: Error setting file metadata: No such file or directory
+# 
+# ** (evince:18502): WARNING **: 10:07:48.013: Error setting file metadata: No such file or directory
+# End time: 10:23:35 on Mar 09,2023, Elapsed time: 0:24:44
+# Errors: 0, Warnings: 0
