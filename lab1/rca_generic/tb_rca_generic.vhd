@@ -61,10 +61,10 @@ Begin
 -- Forcing adder input to LFSR output
   Ci <= '0';
 
-  --A <= PRN(15 downto 8); --assign input values to sum
+  A <= PRN(15 downto 8); --assign input values to sum
   B <= PRN(7 downto 0);
-  A <= "00001111", "11111111" after 5 ns;
-  B <= "00000001";
+  --A <= "00001111", "11111111" after 5 ns;
+  --B <= "00000001";
   
 
 -- Instanciate the Unit Under Test (UUT)

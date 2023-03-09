@@ -1,0 +1,373 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms23.2/microelectronics/lab1/rca_generic
+T_opt
+!s110 1678375186
+VnUaK9851n:GNO5QIcN@k52
+04 5 4 work tbrca test 1
+=1-000ae431a4f1-6409f912-34a75-7920
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1678375583
+VKXAl7DN6W;FZlaXI0S^le2
+04 7 0 work rcatest 1
+=1-000ae431a4f1-6409fa9f-24501-3fbd
+R1
+R2
+n@_opt1
+R3
+Ccfg_fa_behavioral
+eFA
+Z4 aBEHAVIORAL
+DAx4 work 2 fa 10 behavioral 22 l9VY[HBGCaEz?neT;FB;H3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DEx4 work 2 fa 0 22 olkG2i7eJWm@MH>a<IfBQ2
+!i122 1
+Z8 w1678374768
+R0
+Z9 8/home/ms23.2/microelectronics/lab1/rca_generic/fa.vhd
+Z10 F/home/ms23.2/microelectronics/lab1/rca_generic/fa.vhd
+l0
+L24 1
+VaO4WOjE`aHQ<=hm3j=>i:0
+!s100 ;fLgj2F5I1BR>Vc^?i^<S3
+Z11 OL;C;2020.4;71
+32
+Z12 !s110 1678374832
+!i10b 0
+Z13 !s108 1678374831.000000
+Z14 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/rca_generic/fa.vhd|
+Z15 !s107 /home/ms23.2/microelectronics/lab1/rca_generic/fa.vhd|
+!i113 0
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Ccfg_rca_behavioral
+Z18 eRCA_GENERIC
+R4
+DAx4 work 11 rca_generic 10 behavioral 22 SnD91IePfNU1KHGTI>gU]3
+Z19 DPx4 work 9 constants 0 22 W:6`mY6l4=RSIV6jn<EYP0
+Z20 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z22 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R5
+R6
+Z23 DEx4 work 11 rca_generic 0 22 J:ZGW<V@9m1Rf8;7F7CVm1
+!i122 5
+R8
+R0
+Z24 8/home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd
+Z25 F/home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd
+l0
+L68 1
+V2N<K8CSbSMAO=W:U3OLUh0
+!s100 P^>[NahRcMHa6YMe4hB9T2
+R11
+32
+Z26 !s110 1678375172
+!i10b 0
+Z27 !s108 1678375172.000000
+Z28 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd|
+Z29 !s107 /home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd|
+!i113 0
+R16
+R17
+Ccfg_rca_structural
+R18
+aSTRUCTURAL
+R7
+DCx4 work 17 cfg_fa_behavioral 0 22 aO4WOjE`aHQ<=hm3j=>i:0
+DAx4 work 11 rca_generic 10 structural 22 9Q2HniN=VHeaBlJe_D4bJ3
+R19
+R20
+R21
+R22
+R5
+R6
+R23
+!i122 5
+R8
+R0
+R24
+R25
+l0
+L58 1
+V@58LJ8^O>noGDdUNXdGn[1
+!s100 =]RhmcfJ51l6@_9mJdG_X3
+R11
+32
+R26
+!i10b 0
+R27
+R28
+R29
+!i113 0
+R16
+R17
+Pconstants
+!i122 0
+R8
+R0
+8/home/ms23.2/microelectronics/lab1/rca_generic/constants.vhd
+F/home/ms23.2/microelectronics/lab1/rca_generic/constants.vhd
+l0
+L1 1
+VW:6`mY6l4=RSIV6jn<EYP0
+!s100 U5h6FaCeib26DYln1S3372
+R11
+32
+!s110 1678374828
+!i10b 1
+!s108 1678374828.000000
+!s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/rca_generic/constants.vhd|
+!s107 /home/ms23.2/microelectronics/lab1/rca_generic/constants.vhd|
+!i113 0
+R16
+R17
+Efa
+R8
+R5
+R6
+!i122 1
+R0
+R9
+R10
+l0
+L4 1
+VolkG2i7eJWm@MH>a<IfBQ2
+!s100 R@78Q9B;RU?BKW[d:f7WA2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+!i122 1
+l16
+L14 9
+Vl9VY[HBGCaEz?neT;FB;H3
+!s100 DMi>BZZVj6i=_GX:XX[z53
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Elfsr16
+R8
+R21
+R5
+R6
+!i122 2
+R0
+Z30 8/home/ms23.2/microelectronics/lab1/rca_generic/lfsr.vhd
+Z31 F/home/ms23.2/microelectronics/lab1/rca_generic/lfsr.vhd
+l0
+L6 1
+V?NiPZdG9n;2@objYfbGWA3
+!s100 L[m8V_6C>;0ScP9MX`Wi11
+R11
+32
+Z32 !s110 1678374835
+!i10b 1
+Z33 !s108 1678374835.000000
+Z34 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/rca_generic/lfsr.vhd|
+Z35 !s107 /home/ms23.2/microelectronics/lab1/rca_generic/lfsr.vhd|
+!i113 0
+R16
+R17
+Artl
+R21
+R5
+R6
+Z36 DEx4 work 6 lfsr16 0 22 ?NiPZdG9n;2@objYfbGWA3
+!i122 2
+l19
+L17 21
+VnZbPa@87ffdiXdl0QYic^3
+!s100 Zd7^eezldY<`n>c8T4VN10
+R11
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 0
+R16
+R17
+Erca_generic
+R8
+R19
+R20
+R21
+R22
+R5
+R6
+!i122 5
+R0
+R24
+R25
+l0
+L7 1
+VJ:ZGW<V@9m1Rf8;7F7CVm1
+!s100 5DzLKSfEd[YS>=]_DJMi81
+R11
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R16
+R17
+Abehavioral
+R19
+R20
+R21
+R22
+R5
+R6
+R23
+!i122 5
+l50
+L48 9
+VSnD91IePfNU1KHGTI>gU]3
+!s100 E5iZ83kS;WC7di3L[m5]J0
+R11
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R16
+R17
+Astructural
+R19
+R20
+R21
+R22
+R5
+R6
+R23
+!i122 5
+l33
+L18 28
+V9Q2HniN=VHeaBlJe_D4bJ3
+!s100 DjcnB;dVTd6GCZHhEV1ZZ2
+R11
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R16
+R17
+Crcatest
+eTBRCA
+aTEST
+R36
+R23
+DCx4 work 18 cfg_rca_behavioral 0 22 2N<K8CSbSMAO=W:U3OLUh0
+R21
+R22
+DCx4 work 18 cfg_rca_structural 0 22 @58LJ8^O>noGDdUNXdGn[1
+DAx4 work 5 tbrca 4 test 22 E<e5S:DTLY=o33ancm]6U2
+R19
+R20
+R5
+R6
+Z37 DEx4 work 5 tbrca 0 22 `I?;SUh9b<bX[ahHdJUL72
+!i122 8
+Z38 w1678375555
+R0
+Z39 8/home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd
+Z40 F/home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd
+l0
+L89 1
+VJ@4[AD@@<fYUo2_iSfUY;1
+!s100 a5938gnhH;oImC<aD_Ek>3
+R11
+32
+Z41 !s110 1678375568
+!i10b 0
+Z42 !s108 1678375568.000000
+Z43 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd|
+Z44 !s107 /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd|
+!i113 0
+R16
+R17
+Etbrca
+R38
+R19
+R20
+R5
+R6
+!i122 8
+R0
+R39
+R40
+l0
+L8 1
+V`I?;SUh9b<bX[ahHdJUL72
+!s100 kiA=bl_:SYjONHhQL]V8D1
+R11
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R16
+R17
+Atest
+R19
+R20
+R5
+R6
+R37
+!i122 8
+l41
+L11 77
+VE<e5S:DTLY=o33ancm]6U2
+!s100 ehCPeofkM7PjYen:Gcj7A2
+R11
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R16
+R17

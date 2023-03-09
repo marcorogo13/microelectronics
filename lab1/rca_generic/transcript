@@ -1,0 +1,302 @@
+# //  Questa Sim-64
+# //  Version 2020.4 linux_x86_64 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/constants.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:13:48 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 16:13:48 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/fa.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:13:51 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 16:13:52 on Mar 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/lfsr.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:13:55 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/lfsr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LFSR16
+# -- Compiling architecture RTL of LFSR16
+# End time: 16:13:55 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:13:58 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity RCA_GENERIC
+# -- Compiling architecture STRUCTURAL of RCA_GENERIC
+# -- Compiling architecture BEHAVIORAL of RCA_GENERIC
+# -- Loading entity RCA_GENERIC
+# -- Compiling configuration CFG_RCA_STRUCTURAL
+# -- Loading entity RCA_GENERIC
+# -- Loading architecture STRUCTURAL of RCA_GENERIC
+# -- Loading entity FA
+# -- Loading configuration cfg_fa_behavioral
+# -- Compiling configuration CFG_RCA_BEHAVIORAL
+# -- Loading entity RCA_GENERIC
+# -- Loading architecture BEHAVIORAL of RCA_GENERIC
+# End time: 16:13:58 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:14:00 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# -- Compiling configuration RCATEST
+# -- Loading entity TBRCA
+# -- Loading architecture TEST of TBRCA
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity LFSR16
+# -- Loading configuration cfg_rca_structural
+# -- Loading configuration cfg_rca_behavioral
+# End time: 16:14:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tbrca(test) -t 10ps -voptargs=+acc
+# vsim work.tbrca(test) -t 10ps -voptargs="+acc" 
+# Start time: 16:15:15 on Mar 09,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading work.tbrca(test)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca_generic(behavioral)#1
+# Loading work.rca_generic(behavioral)#2
+# Loading work.lfsr16(rtl)#1
+run 10 na
+# Invalid time value: 10 na
+run 10 ns
+add wave *
+run 10 ns
+vsim -t 10ps -voptargs=+acc work.tbrca
+# End time: 16:17:01 on Mar 09,2023, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 0
+# vsim -t 10ps -voptargs="+acc" work.tbrca 
+# Start time: 16:17:01 on Mar 09,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading work.tbrca(test)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca_generic(behavioral)#1
+# Loading work.rca_generic(behavioral)#2
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 10 ns
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:19:32 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity RCA_GENERIC
+# -- Compiling architecture STRUCTURAL of RCA_GENERIC
+# -- Compiling architecture BEHAVIORAL of RCA_GENERIC
+# -- Loading entity RCA_GENERIC
+# -- Compiling configuration CFG_RCA_STRUCTURAL
+# -- Loading entity RCA_GENERIC
+# -- Loading architecture STRUCTURAL of RCA_GENERIC
+# -- Loading entity FA
+# -- Loading configuration cfg_fa_behavioral
+# -- Compiling configuration CFG_RCA_BEHAVIORAL
+# -- Loading entity RCA_GENERIC
+# -- Loading architecture BEHAVIORAL of RCA_GENERIC
+# End time: 16:19:32 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:19:34 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# -- Compiling configuration RCATEST
+# -- Loading entity TBRCA
+# -- Loading architecture TEST of TBRCA
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity LFSR16
+# -- Loading configuration cfg_rca_structural
+# -- Loading configuration cfg_rca_behavioral
+# End time: 16:19:34 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps -voptargs=+acc work.tbrca
+# End time: 16:19:45 on Mar 09,2023, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 0
+# vsim -t 10ps -voptargs="+acc" work.tbrca 
+# Start time: 16:19:45 on Mar 09,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading work.tbrca(test)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca_generic(behavioral)#1
+# Loading work.rca_generic(behavioral)#2
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 10 ns
+vsim -t 10ps -voptargs=+acc work.rcatest
+# End time: 16:22:34 on Mar 09,2023, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 0
+# vsim -t 10ps -voptargs="+acc" work.rcatest 
+# Start time: 16:22:35 on Mar 09,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rcatest#1
+# Loading work.tbrca(test)#1
+# Loading work.cfg_rca_structural#1
+# Loading work.rca_generic(structural)#1
+# Loading work.cfg_fa_behavioral#1
+# Loading work.fa(behavioral)#1
+# Loading work.cfg_rca_structural#2
+# Loading work.rca_generic(structural)#2
+# Loading work.cfg_fa_behavioral#2
+# Loading work.fa(behavioral)#2
+# Loading work.cfg_rca_behavioral#1
+# Loading work.rca_generic(behavioral)#1
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 10 ns
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:26:08 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd 
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# -- Compiling configuration RCATEST
+# -- Loading entity TBRCA
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# -- Loading architecture TEST of TBRCA
+# -- Loading package std_logic_arith
+# Start time: 16:26:08 on Mar 09,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/rca_generic/tb_rca_generic.vhd 
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity LFSR16
+# -- Loading package STANDARD
+# -- Loading configuration cfg_rca_structural
+# -- Loading package TEXTIO
+# -- Loading configuration cfg_rca_behavioral
+# -- Loading package std_logic_1164
+# End time: 16:26:08 on Mar 09,2023, Elapsed time: 0:00:00
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# Errors: 0, Warnings: 0
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# -- Compiling configuration RCATEST
+# -- Loading entity TBRCA
+# -- Loading architecture TEST of TBRCA
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity LFSR16
+# -- Loading configuration cfg_rca_structural
+# -- Loading configuration cfg_rca_behavioral
+# End time: 16:26:08 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps -voptargs=+acc work.rcatest
+# End time: 16:26:22 on Mar 09,2023, Elapsed time: 0:03:47
+# Errors: 0, Warnings: 0
+# vsim -t 10ps -voptargs="+acc" work.rcatest 
+# Start time: 16:26:22 on Mar 09,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rcatest#1
+# Loading work.tbrca(test)#1
+# Loading work.cfg_rca_structural#1
+# Loading work.rca_generic(structural)#1
+# Loading work.cfg_fa_behavioral#1
+# Loading work.fa(behavioral)#1
+# Loading work.cfg_rca_structural#2
+# Loading work.rca_generic(structural)#2
+# Loading work.cfg_fa_behavioral#2
+# Loading work.fa(behavioral)#2
+# Loading work.cfg_rca_behavioral#1
+# Loading work.rca_generic(behavioral)#1
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 15 ns
+# End time: 16:31:19 on Mar 09,2023, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 0
