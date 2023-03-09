@@ -50,7 +50,7 @@ end CFG_FD_GENERIC_PIPPO;
 
 
 configuration CFG_FD_GENERIC_PLUTO of FD_GENERIC is
-	for PLUTO
+	for PIPPO
 	end for;
 end  CFG_FD_GENERIC_PLUTO;
 

@@ -3,9 +3,8 @@ use IEEE.std_logic_1164.all; --  libreria IEEE con definizione tipi standard log
 use WORK.constants.all; -- libreria WORK user-defined
 
 entity IV is
-	generic (NBIT : integer := numBit);
-	Port (	A:	In	std_logic_vector(NBIT-1 downto 0);
-			Y:	Out	std_logic_vector(NBIT-1 downto 0));
+	Port (	A:	In	std_logic;
+			Y:	Out	std_logic);
 end IV;
 
 

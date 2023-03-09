@@ -30,7 +30,7 @@ begin
 
 	UFD2 : FD_GENERIC
 	Generic Map (NBIT)
-	Port Map ( D, CK, RESET,  QASYNCH); -- asinc
+	Port Map (D, CK, RESET,  QASYNCH); -- asinc
 	
 
 	RESET <= '0', '1' after 0.6 ns, '0' after 1.1 ns, '1' after 2.2 ns, '0' after 3.2 ns;	

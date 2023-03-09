@@ -18,7 +18,10 @@ end MUX21_GENERIC;
 architecture BEHAVIORAL of MUX21_GENERIC is
 
 begin
-	Y <= (A and S) or (B and not(S)) after DELAY_MUX; -- processo implicito
+	with S select 
+	Y <= A when '0',
+	     B when '1',
+		 A when others; 
 
 end BEHAVIORAL;
 
@@ -30,16 +33,14 @@ architecture STRUCTURAL of MUX21_GENERIC is
 	signal SB: std_logic;
 
 	component ND2
-	generic(NBIT: integer:= numBit);
-	Port (	A:	In	std_logic_vector(NBIT-1 downto 0);
-			B:	In	std_logic_vector(NBIT-1 downto 0);
-			Y:	Out	std_logic_vector(NBIT-1 downto 0));
+	Port (	A:	In	std_logic;
+			B:	In	std_logic;
+			Y:	Out	std_logic);
 	end component;
 	
 	component IV
-	generic(NBIT: integer:= numBit);
-	Port (	A:	In	std_logic_vector(NBIT-1 downto 0);
-			Y:	Out	std_logic_vector(NBIT-1 downto 0));
+	Port (	A:	In	std_logic;
+			Y:	Out	std_logic);
 	end component;
 
 begin
@@ -47,36 +48,38 @@ begin
 	UIV : IV
 	generic map(NBIT)
 	Port Map ( S, SB);
-
-	UND1 : ND2
-	generic map(NBIT)
-	Port Map ( A, S, Y1);
-
-	UND2 : ND2
-	generic map(NBIT)
-	Port Map ( B, SB, Y2);
-
-	UND3 : ND2
-	generic map(NBIT)
-	Port Map ( Y1, Y2, Y);
-
-
+	
+    UND1: for I in 0 to NBIT-1 generate
+		UND1I : ND2  
+		  Port Map (A(I), S, Y1(I)); 
+	end generate;
+	
+    UND2: for I in 0 to NBIT-1 generate
+		UND2I : ND2  
+		  Port Map (B(I), SB, Y2(I)); 
+	end generate;
+	
+    UND3: for I in 0 to NBIT-1 generate
+		UND3I : ND2  
+		  Port Map (Y1(I), Y2(I), Y(I)); 
+	end generate;
+	
 end STRUCTURAL;
 
 
-configuration CFG_MUX21_GENERIC_BEHAVIORAL of MUX21 is
-	for BEHAVIORAL_1
+configuration CFG_MUX21_GENERIC_BEHAVIORAL of MUX21_GENERIC is
+	for BEHAVIORAL
 	end for;
 end CFG_MUX21_GENERIC_BEHAVIORAL;
 
 
-configuration CFG_MUX21_GENERIC_STRUCTURAL of MUX21 is
+configuration CFG_MUX21_GENERIC_STRUCTURAL of MUX21_GENERIC is
 	for STRUCTURAL
 		for all : IV
 			use configuration WORK.CFG_IV_BEHAVIORAL;
 		end for;
 		for all : ND2
-			use configuration WORK.CFG_ND2_ARCH2;
+			use configuration WORK.CFG_ND2_ARCH1;
 		end for;
 	end for;
 end CFG_MUX21_GENERIC_STRUCTURAL;

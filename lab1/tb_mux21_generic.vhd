@@ -20,7 +20,7 @@ architecture TEST of TBMUX21_GENERIC is
 		 	DELAY_MUX: Time:= tp_mux);
 	Port (	A:	In	std_logic_vector(NBIT-1 downto 0) ;
 		B:	In	std_logic_vector(NBIT-1 downto 0);
-		SEL:	In	std_logic;
+		S:	In	std_logic;
 		Y:	Out	std_logic_vector(NBIT-1 downto 0));
 	end component;
 
@@ -46,11 +46,11 @@ end TEST;
 configuration MUX21GENTEST of TBMUX21_GENERIC is
    for TEST
       for U1: MUX21_GENERIC
-         use configuration WORK.CFG_MUX21_GEN_BEHAVIORAL; 
+         use configuration WORK.CFG_MUX21_GENERIC_BEHAVIORAL; 
       end for;
 
       for U2: MUX21_GENERIC
-         use configuration WORK.CFG_MUX21_GEN_STRUCTURAL; 
+         use configuration WORK.CFG_MUX21_GENERIC_STRUCTURAL; 
       end for;
 
    end for;
