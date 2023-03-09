@@ -1,0 +1,825 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms23.2/microelectronics/lab1/acc
+T_opt
+!s110 1678398044
+VlSo8L6J4QkZY3a00eFC2E1
+04 11 0 work cfg_testacc 1
+=1-000ae431a4f1-640a525b-d95d6-262a
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Eacc
+Z1 w1678398014
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 work 9 constants 0 22 W:6`mY6l4=RSIV6jn<EYP0
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 33
+R0
+Z6 8/home/ms23.2/microelectronics/lab1/acc/acc.vhd
+Z7 F/home/ms23.2/microelectronics/lab1/acc/acc.vhd
+l0
+L6 1
+Vg[hn2P^oA?lUbAW>OB=J_0
+!s100 3O=FRj3T^LTd[OlT[EPB10
+Z8 OL;C;2020.4;71
+32
+Z9 !s110 1678398018
+!i10b 1
+Z10 !s108 1678398018.000000
+Z11 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/acc.vhd|
+Z12 !s107 /home/ms23.2/microelectronics/lab1/acc/acc.vhd|
+!i113 0
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Astructural
+R2
+R3
+R4
+R5
+Z15 DEx4 work 3 acc 0 22 g[hn2P^oA?lUbAW>OB=J_0
+!i122 33
+l83
+L48 52
+VKE^kjKWPX<k9=C]1fbS^22
+!s100 31[bbSzk=7[GS[:U7^ESH3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+R15
+!i122 33
+l23
+L19 27
+VLii2gXeFAh4[kA0Wj:hG43
+!s100 inmzz>`41Of5XKna>JcOE0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Ccfg_acc_behavioral
+eACC
+Z16 aBEHAVIORAL
+DAx4 work 3 acc 10 behavioral 22 Lii2gXeFAh4[kA0Wj:hG43
+R2
+R3
+R4
+R5
+R15
+!i122 33
+R1
+R0
+R6
+R7
+l0
+L101 1
+V^<VB]QC_jKQ1^>P5_KCnc1
+!s100 NE]9E[YhAT5SL?;<ASXIE3
+R8
+32
+R9
+!i10b 0
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Ccfg_acc_structural
+eACC
+Z17 aSTRUCTURAL
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z20 DEx4 work 10 fd_generic 0 22 mmKAmc_dk]n<F9;ELVZ?^3
+Z21 DEx4 work 11 rca_generic 0 22 J:ZGW<V@9m1Rf8;7F7CVm1
+Z22 DEx4 work 13 mux21_generic 0 22 Bmdo_9h5zA5:lOQB5[K^`3
+DAx4 work 3 acc 10 structural 22 KE^kjKWPX<k9=C]1fbS^22
+R2
+R3
+R4
+R5
+R15
+!i122 33
+R1
+R0
+R6
+R7
+l0
+L106 1
+V^k:FEDJ_dhh3a22CGVLfe3
+!s100 VDKzOY88G28h<W]9N:KZ_0
+R8
+32
+R9
+!i10b 0
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Ccfg_fa_behavioral
+eFA
+R16
+DAx4 work 2 fa 10 behavioral 22 l9VY[HBGCaEz?neT;FB;H3
+R4
+R5
+Z23 DEx4 work 2 fa 0 22 olkG2i7eJWm@MH>a<IfBQ2
+!i122 4
+Z24 w1678395713
+R0
+Z25 8/home/ms23.2/microelectronics/lab1/acc/fa.vhd
+Z26 F/home/ms23.2/microelectronics/lab1/acc/fa.vhd
+l0
+L24 1
+VaO4WOjE`aHQ<=hm3j=>i:0
+!s100 ;fLgj2F5I1BR>Vc^?i^<S3
+R8
+32
+Z27 !s110 1678395777
+!i10b 0
+Z28 !s108 1678395777.000000
+Z29 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/fa.vhd|
+Z30 !s107 /home/ms23.2/microelectronics/lab1/acc/fa.vhd|
+!i113 0
+R13
+R14
+Ccfg_fd_generic_pippo
+Z31 eFD_GENERIC
+Z32 aPIPPO
+Z33 DAx4 work 10 fd_generic 5 pippo 22 U4gXAJ8E>6PDfcPYQ6^0R0
+R3
+R4
+R5
+R20
+!i122 6
+R24
+R0
+Z34 8/home/ms23.2/microelectronics/lab1/acc/fd_generic.vhd
+Z35 F/home/ms23.2/microelectronics/lab1/acc/fd_generic.vhd
+l0
+L46 1
+V;kRnUh=EUzA47na1AIzfb3
+!s100 GZS7URYB[c4DL2>iM_TH50
+R8
+32
+Z36 !s110 1678395785
+!i10b 0
+Z37 !s108 1678395785.000000
+Z38 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/fd_generic.vhd|
+Z39 !s107 /home/ms23.2/microelectronics/lab1/acc/fd_generic.vhd|
+!i113 0
+R13
+R14
+Ccfg_fd_generic_pluto
+R31
+R32
+R33
+R3
+R4
+R5
+R20
+!i122 6
+R24
+R0
+R34
+R35
+l0
+L52 1
+V>i5@_9G_XJ>jDRHA5jf;93
+!s100 NdBNFPKFLeWQP:hh2K<aR1
+R8
+32
+R36
+!i10b 0
+R37
+R38
+R39
+!i113 0
+R13
+R14
+Ccfg_iv_behavioral
+eIV
+R16
+DAx4 work 2 iv 10 behavioral 22 L@eAFiK3j2Y6e?kN@i_ID3
+R3
+R4
+R5
+Z40 DEx4 work 2 iv 0 22 l[@`VNb8fZY<X=:9PUmDI1
+!i122 1
+R24
+R0
+Z41 8/home/ms23.2/microelectronics/lab1/acc/iv.vhd
+Z42 F/home/ms23.2/microelectronics/lab1/acc/iv.vhd
+l0
+L17 1
+V8YOlXWFY?gPM>OiAoJmjR0
+!s100 13QZn[E;z;nX3V9T4eTFA3
+R8
+32
+Z43 !s110 1678395764
+!i10b 0
+Z44 !s108 1678395764.000000
+Z45 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/iv.vhd|
+Z46 !s107 /home/ms23.2/microelectronics/lab1/acc/iv.vhd|
+!i113 0
+R13
+R14
+Ccfg_mux21_generic_behavioral
+Z47 eMUX21_GENERIC
+R16
+DAx4 work 13 mux21_generic 10 behavioral 22 <>7Wn^6@2QF^LNK?C?cmP2
+R3
+R4
+R5
+R22
+!i122 7
+R24
+R0
+Z48 8/home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd
+Z49 F/home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd
+l0
+L70 1
+VzQ[8D:0K5>@zPXn@^ZMYI1
+!s100 V1DG=la8<E1W0P=]AS94A2
+R8
+32
+Z50 !s110 1678395797
+!i10b 0
+Z51 !s108 1678395797.000000
+Z52 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd|
+Z53 !s107 /home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd|
+!i113 0
+R13
+R14
+Ccfg_mux21_generic_structural
+R47
+R17
+Z54 DEx4 work 3 nd2 0 22 gme_WFkBF3cPN=:n6f?m>1
+R40
+DCx4 work 13 cfg_nd2_arch1 0 22 ggme8C8XUBYc?[99[zdMS2
+DCx4 work 17 cfg_iv_behavioral 0 22 8YOlXWFY?gPM>OiAoJmjR0
+DAx4 work 13 mux21_generic 10 structural 22 GD33MMD;2]H5U`L9[^V>K3
+R3
+R4
+R5
+R22
+!i122 7
+R24
+R0
+R48
+R49
+l0
+L76 1
+V@An>cn@N0XhVhO]L87?kG3
+!s100 LzGbIzD_l2A2a@I]@jQn33
+R8
+32
+R50
+!i10b 0
+R51
+R52
+R53
+!i113 0
+R13
+R14
+Ccfg_nd2_arch1
+eND2
+aARCH1
+DAx4 work 3 nd2 5 arch1 22 =RSV`cAbJ8kl?b[0TlLhe3
+R3
+R4
+R5
+R54
+!i122 2
+R24
+R0
+Z55 8/home/ms23.2/microelectronics/lab1/acc/nd2.vhd
+Z56 F/home/ms23.2/microelectronics/lab1/acc/nd2.vhd
+l0
+L21 1
+Vggme8C8XUBYc?[99[zdMS2
+!s100 WRlZZSJW9k>459ldmm_O`1
+R8
+32
+Z57 !s110 1678395766
+!i10b 0
+Z58 !s108 1678395766.000000
+Z59 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/nd2.vhd|
+Z60 !s107 /home/ms23.2/microelectronics/lab1/acc/nd2.vhd|
+!i113 0
+R13
+R14
+Ccfg_rca_behavioral
+Z61 eRCA_GENERIC
+R16
+DAx4 work 11 rca_generic 10 behavioral 22 SnD91IePfNU1KHGTI>gU]3
+R3
+R2
+R19
+R18
+R4
+R5
+R21
+!i122 5
+R24
+R0
+Z62 8/home/ms23.2/microelectronics/lab1/acc/rca_generic.vhd
+Z63 F/home/ms23.2/microelectronics/lab1/acc/rca_generic.vhd
+l0
+L68 1
+V2N<K8CSbSMAO=W:U3OLUh0
+!s100 P^>[NahRcMHa6YMe4hB9T2
+R8
+32
+Z64 !s110 1678395780
+!i10b 0
+Z65 !s108 1678395780.000000
+Z66 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/rca_generic.vhd|
+Z67 !s107 /home/ms23.2/microelectronics/lab1/acc/rca_generic.vhd|
+!i113 0
+R13
+R14
+Ccfg_rca_structural
+R61
+R17
+R23
+DCx4 work 17 cfg_fa_behavioral 0 22 aO4WOjE`aHQ<=hm3j=>i:0
+DAx4 work 11 rca_generic 10 structural 22 9Q2HniN=VHeaBlJe_D4bJ3
+R3
+R2
+R19
+R18
+R4
+R5
+R21
+!i122 5
+R24
+R0
+R62
+R63
+l0
+L58 1
+V@58LJ8^O>noGDdUNXdGn[1
+!s100 =]RhmcfJ51l6@_9mJdG_X3
+R8
+32
+R64
+!i10b 0
+R65
+R66
+R67
+!i113 0
+R13
+R14
+Ccfg_testacc
+etb_acc
+aTEST
+R15
+R2
+DCx4 work 18 cfg_acc_behavioral 0 22 =jSoG[7HLEW>:Q58<i2=]1
+DAx4 work 6 tb_acc 4 test 22 0dO5]H9fFgM@jCK2?2VQB2
+R3
+R19
+R18
+R4
+R5
+Z68 DEx4 work 6 tb_acc 0 22 kEgJB_>?VfjIZ]2FNIX5X0
+!i122 32
+Z69 w1678396212
+R0
+Z70 8/home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
+Z71 F/home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
+l0
+L124 1
+VRbkEk]QKCOFe`Dj>>iHAK1
+!s100 VYW2<7DDGNFXa;=9YN6`12
+R8
+32
+Z72 !s110 1678398017
+!i10b 0
+Z73 !s108 1678398017.000000
+Z74 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd|
+Z75 !s107 /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd|
+!i113 0
+R13
+R14
+Pconstants
+!i122 0
+R24
+R0
+8/home/ms23.2/microelectronics/lab1/acc/constants.vhd
+F/home/ms23.2/microelectronics/lab1/acc/constants.vhd
+l0
+L1 1
+VW:6`mY6l4=RSIV6jn<EYP0
+!s100 U5h6FaCeib26DYln1S3372
+R8
+32
+!s110 1678395758
+!i10b 1
+!s108 1678395758.000000
+!s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/constants.vhd|
+!s107 /home/ms23.2/microelectronics/lab1/acc/constants.vhd|
+!i113 0
+R13
+R14
+Efa
+R24
+R4
+R5
+!i122 4
+R0
+R25
+R26
+l0
+L4 1
+VolkG2i7eJWm@MH>a<IfBQ2
+!s100 R@78Q9B;RU?BKW[d:f7WA2
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R13
+R14
+Abehavioral
+R4
+R5
+R23
+!i122 4
+l16
+L14 9
+Vl9VY[HBGCaEz?neT;FB;H3
+!s100 DMi>BZZVj6i=_GX:XX[z53
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R13
+R14
+Efd_generic
+R24
+R3
+R4
+R5
+!i122 6
+R0
+R34
+R35
+l0
+L5 1
+VmmKAmc_dk]n<F9;ELVZ?^3
+!s100 RBanlNMVdSQYaRR4]im3N1
+R8
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R13
+R14
+Apluto
+R3
+R4
+R5
+R20
+!i122 6
+l32
+L30 14
+Vkg@=J8ne;8TzCHB>?@Nbb2
+!s100 PT76OFzV7QccMVa4Sl;l30
+R8
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R13
+R14
+Apippo
+R3
+R4
+R5
+R20
+!i122 6
+l16
+L14 15
+VU4gXAJ8E>6PDfcPYQ6^0R0
+!s100 6GdbYbH<OfLXec`l`IS7_2
+R8
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R13
+R14
+Eiv
+R24
+R3
+R4
+R5
+!i122 1
+R0
+R41
+R42
+l0
+L5 1
+Vl[@`VNb8fZY<X=:9PUmDI1
+!s100 5nLJP6L7hzlU?Z;B98cCe2
+R8
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 0
+R13
+R14
+Abehavioral
+R3
+R4
+R5
+R40
+!i122 1
+l13
+L11 5
+VL@eAFiK3j2Y6e?kN@i_ID3
+!s100 LhQ_V@OYnZZX;ie[`<lkP1
+R8
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 0
+R13
+R14
+Emux21_generic
+R24
+R3
+R4
+R5
+!i122 7
+R0
+R48
+R49
+l0
+L8 1
+VBmdo_9h5zA5:lOQB5[K^`3
+!s100 Vag<jhDX^_kQaUz@6UU6j0
+R8
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 0
+R13
+R14
+Astructural
+R3
+R4
+R5
+R22
+!i122 7
+l46
+L29 39
+VGD33MMD;2]H5U`L9[^V>K3
+!s100 g0f369Z=ehl?8U]6d@R]J3
+R8
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 0
+R13
+R14
+Abehavioral
+R3
+R4
+R5
+R22
+!i122 7
+l20
+L18 9
+V<>7Wn^6@2QF^LNK?C?cmP2
+!s100 o7JOjEKYBz]oooZEGFIg42
+R8
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 0
+R13
+R14
+End2
+R24
+R3
+R4
+R5
+!i122 2
+R0
+R55
+R56
+l0
+L5 1
+Vgme_WFkBF3cPN=:n6f?m>1
+!s100 f:WOMIVUfY1LWAn0bnMWU3
+R8
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R13
+R14
+Aarch1
+R3
+R4
+R5
+R54
+!i122 2
+l15
+L13 5
+V=RSV`cAbJ8kl?b[0TlLhe3
+!s100 cBk?9z23I8BXFfXoW:Ukg1
+R8
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R13
+R14
+Erca_generic
+R24
+R3
+R2
+R19
+R18
+R4
+R5
+!i122 5
+R0
+R62
+R63
+l0
+L7 1
+VJ:ZGW<V@9m1Rf8;7F7CVm1
+!s100 5DzLKSfEd[YS>=]_DJMi81
+R8
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 0
+R13
+R14
+Abehavioral
+R3
+R2
+R19
+R18
+R4
+R5
+R21
+!i122 5
+l50
+L48 9
+VSnD91IePfNU1KHGTI>gU]3
+!s100 E5iZ83kS;WC7di3L[m5]J0
+R8
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 0
+R13
+R14
+Astructural
+R3
+R2
+R19
+R18
+R4
+R5
+R21
+!i122 5
+l33
+L18 28
+V9Q2HniN=VHeaBlJe_D4bJ3
+!s100 DjcnB;dVTd6GCZHhEV1ZZ2
+R8
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 0
+R13
+R14
+Etb_acc
+R69
+R3
+R19
+R18
+R4
+R5
+!i122 32
+R0
+R70
+R71
+l0
+L9 1
+VkEgJB_>?VfjIZ]2FNIX5X0
+!s100 e=6B398oJ7;GZ4JMcd^ig3
+R8
+32
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 0
+R13
+R14
+Atest
+R3
+R19
+R18
+R4
+R5
+R68
+!i122 32
+l37
+L15 105
+V0dO5]H9fFgM@jCK2?2VQB2
+!s100 JIJd@M0[mhBg[_fPOJ@nz1
+R8
+32
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 0
+R13
+R14

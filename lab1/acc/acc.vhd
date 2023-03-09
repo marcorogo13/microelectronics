@@ -18,21 +18,27 @@ end ACC;
 
 architecture BEHAVIORAL of ACC is
 
-signal tmp: std_logic_vector(NBIT downto 0);
+signal tmp, tmp_next: std_logic_vector(NBIT - 1  downto 0);
 
 begin
 regProc : process (CLK) 
 begin
     if (RST_n = '1') then
         tmp <= (others => '0');
+		tmp_next <= (others => '0');
     elsif rising_edge(CLK) then
-        if (ACCUMULATE = 1) then
-            tmp <= std_logic_vector(unsigned(tmp) + unsigned(A)); --if accumulate == 1 increment the current value
-        else
-            tmp <= std_logic_vector(unsigned(A) + unsigned(B));   --otherwise use the B input to add to A
-        end if;
+    	tmp <= tmp_next;    
     end if;    
 end process regProc;
+
+logicProc: process (ACCUMULATE, A, B)
+begin
+	if (ACCUMULATE = '1') then
+		tmp_next <= std_logic_vector(unsigned(tmp) + unsigned(A)); --if accumulate == 1 increment the current value
+	else
+		tmp_next <= std_logic_vector(unsigned(A) + unsigned(B));   --otherwise use the B input to add to A
+	end if;
+end process logicProc;
 
 Y <= tmp; --update concurrently the output
 
@@ -91,4 +97,15 @@ begin
     Y <= reg_out;
 
 end STRUCTURAL;
+
+configuration CFG_ACC_BEHAVIORAL of ACC is
+	for BEHAVIORAL
+	end for;
+end CFG_ACC_BEHAVIORAL;
+
+configuration CFG_ACC_STRUCTURAL of ACC is
+	for STRUCTURAL
+	end for;
+end CFG_ACC_STRUCTURAL;
+
 
