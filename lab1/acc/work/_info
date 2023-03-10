@@ -10,21 +10,21 @@ z2
 cModel Technology
 Z0 d/home/ms23.2/microelectronics/lab1/acc
 T_opt
-!s110 1678398044
-VlSo8L6J4QkZY3a00eFC2E1
+!s110 1678474653
+VN04HijP;;_fTM;NI5ocLI2
 04 11 0 work cfg_testacc 1
-=1-000ae431a4f1-640a525b-d95d6-262a
+=1-000ae431a4f1-640b7d9c-dcbf0-3d3a
 o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 Eacc
-Z1 w1678398014
+Z1 w1678474628
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx4 work 9 constants 0 22 W:6`mY6l4=RSIV6jn<EYP0
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 33
+!i122 44
 R0
 Z6 8/home/ms23.2/microelectronics/lab1/acc/acc.vhd
 Z7 F/home/ms23.2/microelectronics/lab1/acc/acc.vhd
@@ -34,9 +34,9 @@ Vg[hn2P^oA?lUbAW>OB=J_0
 !s100 3O=FRj3T^LTd[OlT[EPB10
 Z8 OL;C;2020.4;71
 32
-Z9 !s110 1678398018
+Z9 !s110 1678474647
 !i10b 1
-Z10 !s108 1678398018.000000
+Z10 !s108 1678474647.000000
 Z11 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/acc.vhd|
 Z12 !s107 /home/ms23.2/microelectronics/lab1/acc/acc.vhd|
 !i113 0
@@ -48,11 +48,11 @@ R3
 R4
 R5
 Z15 DEx4 work 3 acc 0 22 g[hn2P^oA?lUbAW>OB=J_0
-!i122 33
-l83
-L48 52
-VKE^kjKWPX<k9=C]1fbS^22
-!s100 31[bbSzk=7[GS[:U7^ESH3
+!i122 44
+l75
+L41 53
+VhR^mSMJ<7DUgUV3`i[GU;0
+!s100 UX@BRfmoK??bjZhT`2flJ3
 R8
 32
 R9
@@ -69,11 +69,11 @@ R3
 R4
 R5
 R15
-!i122 33
+!i122 44
 l23
-L19 27
-VLii2gXeFAh4[kA0Wj:hG43
-!s100 inmzz>`41Of5XKna>JcOE0
+L19 20
+VQ6`EE8QVV?4]4XBD:77AQ0
+!s100 4LOzhPn>0>gHZQM288Zd?0
 R8
 32
 R9
@@ -87,21 +87,21 @@ R14
 Ccfg_acc_behavioral
 eACC
 Z16 aBEHAVIORAL
-DAx4 work 3 acc 10 behavioral 22 Lii2gXeFAh4[kA0Wj:hG43
+DAx4 work 3 acc 10 behavioral 22 Q6`EE8QVV?4]4XBD:77AQ0
 R2
 R3
 R4
 R5
 R15
-!i122 33
+!i122 44
 R1
 R0
 R6
 R7
 l0
-L101 1
-V^<VB]QC_jKQ1^>P5_KCnc1
-!s100 NE]9E[YhAT5SL?;<ASXIE3
+L95 1
+Vf?eZ<jcB<@X19TQ@Q@H_22
+!s100 fFCOLNdin8O?HeaE`?@G?3
 R8
 32
 R9
@@ -120,21 +120,21 @@ Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z20 DEx4 work 10 fd_generic 0 22 mmKAmc_dk]n<F9;ELVZ?^3
 Z21 DEx4 work 11 rca_generic 0 22 J:ZGW<V@9m1Rf8;7F7CVm1
 Z22 DEx4 work 13 mux21_generic 0 22 Bmdo_9h5zA5:lOQB5[K^`3
-DAx4 work 3 acc 10 structural 22 KE^kjKWPX<k9=C]1fbS^22
+DAx4 work 3 acc 10 structural 22 hR^mSMJ<7DUgUV3`i[GU;0
 R2
 R3
 R4
 R5
 R15
-!i122 33
+!i122 44
 R1
 R0
 R6
 R7
 l0
-L106 1
-V^k:FEDJ_dhh3a22CGVLfe3
-!s100 VDKzOY88G28h<W]9N:KZ_0
+L100 1
+VLW^3WaCnmg]JXWT`_WCAe1
+!s100 hDmWa>=][[PNb0Xm>IjAL1
 R8
 32
 R9
@@ -404,7 +404,7 @@ etb_acc
 aTEST
 R15
 R2
-DCx4 work 18 cfg_acc_behavioral 0 22 =jSoG[7HLEW>:Q58<i2=]1
+DCx4 work 18 cfg_acc_structural 0 22 LW^3WaCnmg]JXWT`_WCAe1
 DAx4 work 6 tb_acc 4 test 22 0dO5]H9fFgM@jCK2?2VQB2
 R3
 R19
@@ -412,20 +412,20 @@ R18
 R4
 R5
 Z68 DEx4 work 6 tb_acc 0 22 kEgJB_>?VfjIZ]2FNIX5X0
-!i122 32
-Z69 w1678396212
+!i122 41
+Z69 w1678473783
 R0
 Z70 8/home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
 Z71 F/home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
 l0
 L124 1
-VRbkEk]QKCOFe`Dj>>iHAK1
-!s100 VYW2<7DDGNFXa;=9YN6`12
+VdKF?2a]eCz=ao5gNeZO7<1
+!s100 ]N>?zf:WA2I1bf2C:9XC03
 R8
 32
-Z72 !s110 1678398017
+Z72 !s110 1678473879
 !i10b 0
-Z73 !s108 1678398017.000000
+Z73 !s108 1678473879.000000
 Z74 !s90 -reportprogress|300|-work|work|/home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd|
 Z75 !s107 /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd|
 !i113 0
@@ -783,7 +783,7 @@ R19
 R18
 R4
 R5
-!i122 32
+!i122 41
 R0
 R70
 R71
@@ -808,7 +808,7 @@ R18
 R4
 R5
 R68
-!i122 32
+!i122 41
 l37
 L15 105
 V0dO5]H9fFgM@jCK2?2VQB2

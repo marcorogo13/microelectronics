@@ -23,30 +23,23 @@ signal tmp, tmp_next: std_logic_vector(NBIT - 1  downto 0);
 begin
 regProc : process (CLK) 
 begin
-    if (RST_n = '1') then
+    if (RST_n = '0') then     --reset is active low!
         tmp <= (others => '0');
-		tmp_next <= (others => '0');
     elsif rising_edge(CLK) then
-    	tmp <= tmp_next;    
+	if (ACCUMULATE = '1') then
+		tmp <= std_logic_vector(unsigned(tmp) + unsigned(A)); --if accumulate == 1 increment the current value
+	else
+		tmp <= std_logic_vector(unsigned(A) + unsigned(B));   --otherwise use the B input to add to A
+	end if;
+   
     end if;    
 end process regProc;
-
-logicProc: process (ACCUMULATE, A, B)
-begin
-	if (ACCUMULATE = '1') then
-		tmp_next <= std_logic_vector(unsigned(tmp) + unsigned(A)); --if accumulate == 1 increment the current value
-	else
-		tmp_next <= std_logic_vector(unsigned(A) + unsigned(B));   --otherwise use the B input to add to A
-	end if;
-end process logicProc;
-
-Y <= tmp; --update concurrently the output
 
 end BEHAVIORAL;
 
 
 architecture STRUCTURAL of ACC is
-
+	signal RST: std_logic;
 	signal mux_out: std_logic_vector(NBIT-1 downto 0);
 	signal add_out: std_logic_vector(NBIT-1 downto 0);
 	signal reg_out: std_logic_vector(NBIT-1 downto 0);
@@ -79,12 +72,13 @@ architecture STRUCTURAL of ACC is
 		Q:	Out	std_logic_vector(NBIT-1 downto 0));
     end component;
 
-    
 begin
+	
+	RST <= not(RST_n);	
 
     UMUX: MUX21_GENERIC
     generic map(NBIT, TP_MUX)
-    port map(A, B, ACCUMULATE, mux_out);
+    port map(reg_out, B, ACCUMULATE, mux_out);
 
     UADD : RCA_GENERIC
     generic map(NBIT, 0 ns, 0 ns)
@@ -92,7 +86,7 @@ begin
 
     UREG : FD_GENERIC
     generic map(NBIT)
-    port map(add_out, CLK, RST_n, reg_out);
+    port map(add_out, CLK, RST, reg_out);
 
     Y <= reg_out;
 

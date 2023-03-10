@@ -124,7 +124,7 @@ end TEST;
 configuration CFG_TESTACC of tb_acc is
   for TEST
       for DUT : ACC
-        use configuration WORK.CFG_ACC_BEHAVIORAL;
+        use configuration WORK.CFG_ACC_STRUCTURAL;
       end for;
   end for;
 end CFG_TESTACC;

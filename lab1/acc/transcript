@@ -12,427 +12,9 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/constants.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:02:38 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/constants.vhd 
-# -- Loading package STANDARD
-# -- Compiling package CONSTANTS
-# End time: 22:02:38 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/iv.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:02:44 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/iv.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity IV
-# -- Compiling architecture BEHAVIORAL of IV
-# -- Compiling configuration CFG_IV_BEHAVIORAL
-# -- Loading entity IV
-# -- Loading architecture BEHAVIORAL of IV
-# End time: 22:02:44 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/nd2.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:02:46 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/nd2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity ND2
-# -- Compiling architecture ARCH1 of ND2
-# -- Compiling configuration CFG_ND2_ARCH1
-# -- Loading entity ND2
-# -- Loading architecture ARCH1 of ND2
-# End time: 22:02:46 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:02:50 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
-# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GENERIC_BEHAVIORAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GENERIC_STRUCTURAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity IV
-# -- Loading entity ND2
-# -- Loading configuration cfg_iv_behavioral
-# -- Loading configuration cfg_nd2_arch1
-# ** Warning: /home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd(81): (vcom-1263) Component configuration "all : ND2" applies to no component instantiation statements.
-# End time: 22:02:50 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/fa.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:02:57 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/fa.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FA
-# -- Compiling architecture BEHAVIORAL of FA
-# -- Compiling configuration CFG_FA_BEHAVIORAL
-# -- Loading entity FA
-# -- Loading architecture BEHAVIORAL of FA
-# End time: 22:02:57 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/rca_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:03:00 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/rca_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package CONSTANTS
-# -- Compiling entity RCA_GENERIC
-# -- Compiling architecture STRUCTURAL of RCA_GENERIC
-# -- Compiling architecture BEHAVIORAL of RCA_GENERIC
-# -- Loading entity RCA_GENERIC
-# -- Compiling configuration CFG_RCA_STRUCTURAL
-# -- Loading entity RCA_GENERIC
-# -- Loading architecture STRUCTURAL of RCA_GENERIC
-# -- Loading entity FA
-# -- Loading configuration cfg_fa_behavioral
-# -- Compiling configuration CFG_RCA_BEHAVIORAL
-# -- Loading entity RCA_GENERIC
-# -- Loading architecture BEHAVIORAL of RCA_GENERIC
-# End time: 22:03:00 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/fd_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:03:05 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/fd_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity FD_GENERIC
-# -- Compiling architecture PIPPO of FD_GENERIC
-# -- Compiling architecture PLUTO of FD_GENERIC
-# -- Loading entity FD_GENERIC
-# -- Compiling configuration CFG_FD_GENERIC_PIPPO
-# -- Loading entity FD_GENERIC
-# -- Loading architecture PIPPO of FD_GENERIC
-# -- Compiling configuration CFG_FD_GENERIC_PLUTO
-# -- Loading entity FD_GENERIC
-# -- Loading architecture PIPPO of FD_GENERIC
-# End time: 22:03:05 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:03:17 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
-# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GENERIC_BEHAVIORAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GENERIC_STRUCTURAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity IV
-# -- Loading entity ND2
-# -- Loading configuration cfg_iv_behavioral
-# -- Loading configuration cfg_nd2_arch1
-# ** Warning: /home/ms23.2/microelectronics/lab1/acc/mux21_generic.vhd(81): (vcom-1263) Component configuration "all : ND2" applies to no component instantiation statements.
-# End time: 22:03:17 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:03:56 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(59): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(67): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(75): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(83): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(91): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(99): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(107): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(117): VHDL Compiler exiting
-# End time: 22:03:56 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:06:16 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(70): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(78): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(86): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(94): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(102): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(110): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(119): VHDL Compiler exiting
-# End time: 22:06:16 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:06:46 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(70): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(78): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(86): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(94): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(102): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(110): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(119): VHDL Compiler exiting
-# End time: 22:06:46 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:07:50 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(70): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(78): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(86): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(94): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(102): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(110): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(119): VHDL Compiler exiting
-# End time: 22:07:51 on Mar 09,2023, Elapsed time: 0:00:01
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:07:57 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(70): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(78): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(86): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(94): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(102): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(110): (vcom-1272) Length of expected is 4; length of actual is 32.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(119): VHDL Compiler exiting
-# End time: 22:07:57 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:09:47 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(17): near "component": (vcom-1576) expecting ';'.
-# End time: 22:09:47 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:10:01 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(61): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(62): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(69): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(70): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(77): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(78): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(85): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(86): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(93): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(94): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(101): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(102): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(109): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(110): (vcom-1272) Length of expected is 16; length of actual is 32.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(119): VHDL Compiler exiting
-# End time: 22:10:01 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:10:16 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# ** Error: (vcom-11) Could not find work.cfg_acc_behavioral.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): (vcom-1195) Cannot find expanded name "work.CFG_ACC_BEHAVIORAL".
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): (vcom-1106) Name (expanded name) is not a configuration name.
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): Unknown expanded name.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(130): VHDL Compiler exiting
-# End time: 22:10:16 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:13:16 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# ** Error: (vcom-11) Could not find work.cfg_acc_behavioral.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): (vcom-1195) Cannot find expanded name "work.CFG_ACC_BEHAVIORAL".
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): (vcom-1106) Name (expanded name) is not a configuration name.
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): Unknown expanded name.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(130): VHDL Compiler exiting
-# End time: 22:13:16 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:16:16 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# ** Error: (vcom-11) Could not find work.cfg_acc_behavioral.
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): (vcom-1195) Cannot find expanded name "work.CFG_ACC_BEHAVIORAL".
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): (vcom-1106) Name (expanded name) is not a configuration name.
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(127): Unknown expanded name.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd(130): VHDL Compiler exiting
-# End time: 22:16:16 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:16:31 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ACC
-# -- Compiling architecture BEHAVIORAL of ACC
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(29): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(29): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(39): VHDL Compiler exiting
-# End time: 22:16:32 on Mar 09,2023, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:17:11 on Mar 09,2023
+# Start time: 19:05:11 on Mar 10,2023
 # vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -454,11 +36,11 @@ vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.v
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity RCA_GENERIC
 # -- Loading entity FD_GENERIC
-# End time: 22:17:12 on Mar 09,2023, Elapsed time: 0:00:01
+# End time: 19:05:11 on Mar 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:17:15 on Mar 09,2023
+# Start time: 19:05:13 on Mar 10,2023
 # vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -474,89 +56,12 @@ vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_ac
 # -- Loading package NUMERIC_STD
 # -- Loading entity ACC
 # -- Loading configuration cfg_acc_behavioral
-# End time: 22:17:15 on Mar 09,2023, Elapsed time: 0:00:00
+# End time: 19:05:13 on Mar 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.cfg_testacc -t 10ps -voptargs=+acc
 # vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
-# Start time: 22:17:50 on Mar 09,2023
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error (suppressible): /home/ms23.2/microelectronics/lab1/acc/acc.vhd(37): (vopt-1272) Length of expected is 32; length of actual is 33.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(39): Vopt Compiler exiting
-# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
-# Error loading design
-# End time: 22:17:52 on Mar 09,2023, Elapsed time: 0:00:02
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:19:37 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# -- Loading package NUMERIC_STD
-# -- Loading entity ACC
-# -- Loading configuration cfg_acc_behavioral
-# End time: 22:19:37 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:19:46 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ACC
-# -- Compiling architecture BEHAVIORAL of ACC
-# -- Compiling architecture STRUCTURAL of ACC
-# -- Loading entity ACC
-# -- Compiling configuration CFG_ACC_BEHAVIORAL
-# -- Loading entity ACC
-# -- Loading architecture BEHAVIORAL of ACC
-# -- Compiling configuration CFG_ACC_STRUCTURAL
-# -- Loading entity ACC
-# -- Loading architecture STRUCTURAL of ACC
-# -- Loading entity MUX21_GENERIC
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity RCA_GENERIC
-# -- Loading entity FD_GENERIC
-# End time: 22:19:46 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:19:47 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# -- Loading package NUMERIC_STD
-# -- Loading entity ACC
-# -- Loading configuration cfg_acc_behavioral
-# End time: 22:19:47 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -t 10ps -voptargs=+acc work.cfg_testacc
-# vsim -t 10ps -voptargs="+acc" work.cfg_testacc 
-# Start time: 22:20:01 on Mar 09,2023
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 19:05:33 on Mar 10,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -569,12 +74,10 @@ vsim -t 10ps -voptargs=+acc work.cfg_testacc
 # Loading work.cfg_acc_behavioral#1
 # Loading work.acc(behavioral)#1
 add wave *
-run 15 ns
 run 50 ns
-run 100 ns
 vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:28:55 on Mar 09,2023
+# Start time: 19:10:05 on Mar 10,2023
 # vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -596,33 +99,13 @@ vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.v
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity RCA_GENERIC
 # -- Loading entity FD_GENERIC
-# End time: 22:28:55 on Mar 09,2023, Elapsed time: 0:00:00
+# End time: 19:10:05 on Mar 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:28:57 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# -- Loading package NUMERIC_STD
-# -- Loading entity ACC
-# -- Loading configuration cfg_acc_behavioral
-# End time: 22:28:58 on Mar 09,2023, Elapsed time: 0:00:01
+vsim work.cfg_testacc -t 10ps -voptargs=+acc
+# End time: 19:10:14 on Mar 10,2023, Elapsed time: 0:04:41
 # Errors: 0, Warnings: 0
-vsim -t 10ps -voptargs=+acc work.cfg_testacc
-# End time: 22:29:14 on Mar 09,2023, Elapsed time: 0:09:13
-# Errors: 0, Warnings: 0
-# vsim -t 10ps -voptargs="+acc" work.cfg_testacc 
-# Start time: 22:29:14 on Mar 09,2023
+# vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
+# Start time: 19:10:14 on Mar 10,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -636,68 +119,10 @@ vsim -t 10ps -voptargs=+acc work.cfg_testacc
 # Loading work.cfg_acc_behavioral#1
 # Loading work.acc(behavioral)#1
 add wave *
-run 60 ns
+run 50 ns
 vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:33:35 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ACC
-# -- Compiling architecture BEHAVIORAL of ACC
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(30): near "end": (vcom-1576) expecting ';'.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(45): VHDL Compiler exiting
-# End time: 22:33:35 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:33:50 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ACC
-# -- Compiling architecture BEHAVIORAL of ACC
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(30): near "end": (vcom-1576) expecting ';'.
-# ** Note: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(45): VHDL Compiler exiting
-# End time: 22:33:50 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:34:03 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ACC
-# -- Compiling architecture BEHAVIORAL of ACC
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(30): near ";": syntax error
-# End time: 22:34:03 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:34:13 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ACC
-# -- Compiling architecture BEHAVIORAL of ACC
-# ** Error: /home/ms23.2/microelectronics/lab1/acc/acc.vhd(31): near "if": (vcom-1576) expecting PROCESS.
-# End time: 22:34:13 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:34:58 on Mar 09,2023
+# Start time: 19:14:15 on Mar 10,2023
 # vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -719,98 +144,13 @@ vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.v
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity RCA_GENERIC
 # -- Loading entity FD_GENERIC
-# End time: 22:34:58 on Mar 09,2023, Elapsed time: 0:00:00
+# End time: 19:14:15 on Mar 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:35:03 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# -- Loading package NUMERIC_STD
-# -- Loading entity ACC
-# -- Loading configuration cfg_acc_behavioral
-# End time: 22:35:03 on Mar 09,2023, Elapsed time: 0:00:00
+vsim work.cfg_testacc -t 10ps -voptargs=+acc
+# End time: 19:14:20 on Mar 10,2023, Elapsed time: 0:04:06
 # Errors: 0, Warnings: 0
-vsim -t 10ps -voptargs=+acc work.cfg_testacc
-# End time: 22:35:19 on Mar 09,2023, Elapsed time: 0:06:05
-# Errors: 0, Warnings: 0
-# vsim -t 10ps -voptargs="+acc" work.cfg_testacc 
-# Start time: 22:35:19 on Mar 09,2023
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.constants
-# Loading ieee.numeric_std(body)
-# Loading work.cfg_testacc#1
-# Loading work.tb_acc(test)#1
-# Loading work.cfg_acc_behavioral#1
-# Loading work.acc(behavioral)#1
-add wave *
-run 70 ns
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:40:17 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package CONSTANTS
-# -- Compiling entity tb_acc
-# -- Compiling architecture TEST of tb_acc
-# -- Compiling configuration CFG_TESTACC
-# -- Loading entity tb_acc
-# -- Loading architecture TEST of tb_acc
-# -- Loading package NUMERIC_STD
-# -- Loading entity ACC
-# -- Loading configuration cfg_acc_behavioral
-# End time: 22:40:17 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 22:40:18 on Mar 09,2023
-# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ACC
-# -- Compiling architecture BEHAVIORAL of ACC
-# -- Compiling architecture STRUCTURAL of ACC
-# -- Loading entity ACC
-# -- Compiling configuration CFG_ACC_BEHAVIORAL
-# -- Loading entity ACC
-# -- Loading architecture BEHAVIORAL of ACC
-# -- Compiling configuration CFG_ACC_STRUCTURAL
-# -- Loading entity ACC
-# -- Loading architecture STRUCTURAL of ACC
-# -- Loading entity MUX21_GENERIC
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity RCA_GENERIC
-# -- Loading entity FD_GENERIC
-# End time: 22:40:18 on Mar 09,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -t 10ps -voptargs=+acc work.cfg_testacc
-# End time: 22:40:43 on Mar 09,2023, Elapsed time: 0:05:24
-# Errors: 0, Warnings: 0
-# vsim -t 10ps -voptargs="+acc" work.cfg_testacc 
-# Start time: 22:40:43 on Mar 09,2023
+# vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
+# Start time: 19:14:20 on Mar 10,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-13) Recompile work.cfg_testacc because work.cfg_acc_behavioral has changed.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
@@ -825,10 +165,298 @@ vsim -t 10ps -voptargs=+acc work.cfg_testacc
 # Loading work.tb_acc(test)#1
 # Loading work.cfg_acc_behavioral#1
 # Loading work.acc(behavioral)#1
-run 100 ns
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:20:40 on Mar 10,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ACC
+# -- Compiling architecture BEHAVIORAL of ACC
+# -- Compiling architecture STRUCTURAL of ACC
+# -- Loading entity ACC
+# -- Compiling configuration CFG_ACC_BEHAVIORAL
+# -- Loading entity ACC
+# -- Loading architecture BEHAVIORAL of ACC
+# -- Compiling configuration CFG_ACC_STRUCTURAL
+# -- Loading entity ACC
+# -- Loading architecture STRUCTURAL of ACC
+# -- Loading entity MUX21_GENERIC
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity FD_GENERIC
+# End time: 19:20:40 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 add wave *
-run 100 ns
-# Causality operation skipped due to absence of debug database file
-run 100 ns
-# End time: 22:41:47 on Mar 09,2023, Elapsed time: 0:01:04
+run 50 ns
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:34:27 on Mar 10,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ACC
+# -- Compiling architecture BEHAVIORAL of ACC
+# -- Compiling architecture STRUCTURAL of ACC
+# -- Loading entity ACC
+# -- Compiling configuration CFG_ACC_BEHAVIORAL
+# -- Loading entity ACC
+# -- Loading architecture BEHAVIORAL of ACC
+# -- Compiling configuration CFG_ACC_STRUCTURAL
+# -- Loading entity ACC
+# -- Loading architecture STRUCTURAL of ACC
+# -- Loading entity MUX21_GENERIC
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity FD_GENERIC
+# End time: 19:34:27 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cfg_testacc -t 10ps -voptargs=+acc
+# End time: 19:34:35 on Mar 10,2023, Elapsed time: 0:20:15
 # Errors: 0, Warnings: 1
+# vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
+# Start time: 19:34:35 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13) Recompile work.cfg_testacc because work.cfg_acc_behavioral has changed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.constants
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_testacc#1
+# Loading work.tb_acc(test)#1
+# Loading work.cfg_acc_behavioral#1
+# Loading work.acc(behavioral)#1
+add wave *
+run 50 ns
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:44:33 on Mar 10,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ACC
+# -- Compiling architecture BEHAVIORAL of ACC
+# -- Compiling architecture STRUCTURAL of ACC
+# -- Loading entity ACC
+# -- Compiling configuration CFG_ACC_BEHAVIORAL
+# -- Loading entity ACC
+# -- Loading architecture BEHAVIORAL of ACC
+# -- Compiling configuration CFG_ACC_STRUCTURAL
+# -- Loading entity ACC
+# -- Loading architecture STRUCTURAL of ACC
+# -- Loading entity MUX21_GENERIC
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity FD_GENERIC
+# End time: 19:44:33 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:44:39 on Mar 10,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# -- Compiling configuration CFG_TESTACC
+# -- Loading entity tb_acc
+# -- Loading architecture TEST of tb_acc
+# -- Loading package NUMERIC_STD
+# -- Loading entity ACC
+# -- Loading configuration cfg_acc_structural
+# End time: 19:44:39 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cfg_testacc -t 10ps -voptargs=+acc
+# End time: 19:44:56 on Mar 10,2023, Elapsed time: 0:10:21
+# Errors: 0, Warnings: 1
+# vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
+# Start time: 19:44:56 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.constants
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_testacc#1
+# Loading work.tb_acc(test)#1
+# Loading work.cfg_acc_structural#1
+# Loading work.acc(structural)#1
+# Loading work.mux21_generic(structural)#1
+# Loading work.iv(behavioral)#1
+# Loading work.nd2(arch1)#1
+# Loading work.rca_generic(behavioral)#1
+# Loading work.fd_generic(pluto)#1
+add wave *
+run 50 ns
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:51:51 on Mar 10,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ACC
+# -- Compiling architecture BEHAVIORAL of ACC
+# -- Compiling architecture STRUCTURAL of ACC
+# -- Loading entity ACC
+# -- Compiling configuration CFG_ACC_BEHAVIORAL
+# -- Loading entity ACC
+# -- Loading architecture BEHAVIORAL of ACC
+# -- Compiling configuration CFG_ACC_STRUCTURAL
+# -- Loading entity ACC
+# -- Loading architecture STRUCTURAL of ACC
+# -- Loading entity MUX21_GENERIC
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity FD_GENERIC
+# End time: 19:51:51 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:51:53 on Mar 10,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ACC
+# -- Compiling architecture BEHAVIORAL of ACC
+# -- Compiling architecture STRUCTURAL of ACC
+# -- Loading entity ACC
+# -- Compiling configuration CFG_ACC_BEHAVIORAL
+# -- Loading entity ACC
+# -- Loading architecture BEHAVIORAL of ACC
+# -- Compiling configuration CFG_ACC_STRUCTURAL
+# -- Loading entity ACC
+# -- Loading architecture STRUCTURAL of ACC
+# -- Loading entity MUX21_GENERIC
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity FD_GENERIC
+# End time: 19:51:53 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cfg_testacc -t 10ps -voptargs=+acc
+# End time: 19:52:03 on Mar 10,2023, Elapsed time: 0:07:07
+# Errors: 0, Warnings: 0
+# vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
+# Start time: 19:52:03 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.constants
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_testacc#1
+# Loading work.tb_acc(test)#1
+# Loading work.cfg_acc_structural#1
+# Loading work.acc(structural)#1
+# Loading work.mux21_generic(structural)#1
+# Loading work.iv(behavioral)#1
+# Loading work.nd2(arch1)#1
+# Loading work.rca_generic(behavioral)#1
+# Loading work.fd_generic(pluto)#1
+add wave *
+run 60 ns
+vsim work.cfg_testacc -t 10ps -voptargs=+acc
+# End time: 19:57:15 on Mar 10,2023, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 0
+# vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
+# Start time: 19:57:15 on Mar 10,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.constants
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_testacc#1
+# Loading work.tb_acc(test)#1
+# Loading work.cfg_acc_structural#1
+# Loading work.acc(structural)#1
+# Loading work.mux21_generic(structural)#1
+# Loading work.iv(behavioral)#1
+# Loading work.nd2(arch1)#1
+# Loading work.rca_generic(behavioral)#1
+# Loading work.fd_generic(pluto)#1
+vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:57:27 on Mar 10,2023
+# vcom -reportprogress 300 -work work /home/ms23.2/microelectronics/lab1/acc/acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ACC
+# -- Compiling architecture BEHAVIORAL of ACC
+# -- Compiling architecture STRUCTURAL of ACC
+# -- Loading entity ACC
+# -- Compiling configuration CFG_ACC_BEHAVIORAL
+# -- Loading entity ACC
+# -- Loading architecture BEHAVIORAL of ACC
+# -- Compiling configuration CFG_ACC_STRUCTURAL
+# -- Loading entity ACC
+# -- Loading architecture STRUCTURAL of ACC
+# -- Loading entity MUX21_GENERIC
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA_GENERIC
+# -- Loading entity FD_GENERIC
+# End time: 19:57:27 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cfg_testacc -t 10ps -voptargs=+acc
+# End time: 19:57:32 on Mar 10,2023, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
+# vsim work.cfg_testacc -t 10ps -voptargs="+acc" 
+# Start time: 19:57:32 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.constants
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_testacc#1
+# Loading work.tb_acc(test)#1
+# Loading work.cfg_acc_structural#1
+# Loading work.acc(structural)#1
+# Loading work.mux21_generic(structural)#1
+# Loading work.iv(behavioral)#1
+# Loading work.nd2(arch1)#1
+# Loading work.rca_generic(behavioral)#1
+# Loading work.fd_generic(pluto)#1
+add wave *
+run 60 ns
+# End time: 20:00:38 on Mar 10,2023, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
